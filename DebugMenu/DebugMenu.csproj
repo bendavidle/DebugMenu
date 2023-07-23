@@ -6,4 +6,31 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Viewfinder\MelonLoader\net6\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Viewfinder\MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppViewfinderAssembly">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Viewfinder\MelonLoader\Il2CppAssemblies\Il2CppViewfinderAssembly.dll</HintPath>
+    </Reference>
+    <Reference Include="MelonLoader">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Viewfinder\MelonLoader\net6\MelonLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="UnhollowerBaseLib">
+      <HintPath>..\..\..\..\..\Desktop\Il2CppDumper-win-v6.7.40\unhollow\UnhollowerBaseLib.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Viewfinder\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Viewfinder\MelonLoader\Il2CppAssemblies\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Viewfinder\MelonLoader\Il2CppAssemblies\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
